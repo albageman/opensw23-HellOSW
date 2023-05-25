@@ -1,17 +1,17 @@
 # opensw23-HellOSW
 -Team Introduction
->이태혁 202211350 
+>이태혁 202211350 - team_Leader
 >
->성승재 202011309 
+>성승재 202011309 - Coder
 >
->김도현 2020
+>김도현 2020 - Github Expert
 >
->김동호 202211267
+>김동호 202211267 - Presentation
 
 -Topic Introduction
 >empty
 
-Result
+-Result
 
 >empty
 
@@ -26,7 +26,3 @@ Result
 -Presentation
 
 >empty
-
--Submit the link to your repository to E-Campus.
-
->https://github.com/albageman
