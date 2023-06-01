@@ -127,6 +127,8 @@ plot_sample(lr, sr)
 ![result-srgan](docs/images/result-srgan.png)
 
 ### conda 다운 받기
+#### 주의: miniconda 설치 경로에 한글이 있으면 안(사용자명이 영어여야한다)
+> 현재 확인한 바로는 기본경로가 아닌 다른경로로 설치하게 되면 오류 발생함.
 
 miniconda Link: [miniconda][minicondalink]
 
