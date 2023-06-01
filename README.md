@@ -37,6 +37,8 @@
 ### 2. anaconda prompt를 실행시키기
 
 <img width="586" alt="image" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/c76dfcbb-d228-4c1f-997b-cec363fdc5f8">
+
+
 이후 git clone 된 폴더로 이동한다.
 <img width="864" alt="image" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/97a1cde7-4f69-4ee9-a318-dcd639c8b318">
 
