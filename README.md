@@ -37,8 +37,10 @@
 
 ### 3.
 
-'''conda env create -f environment.yml'''
-'''conda activate sisr'''
+'''
+conda env create -f environment.yml
+conda activate sisr
+'''
 를 순차적으로 실행한다.
 
 ### 4. root파일에서 파이썬을 실행시킨다.
