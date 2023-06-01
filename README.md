@@ -1,6 +1,6 @@
 # opensw23-HellOSW
 
-## -Team Introduction
+## Team Introduction
 
 > 이태혁 202211350 - team_Leader
 >
