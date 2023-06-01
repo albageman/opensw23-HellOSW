@@ -1,5 +1,5 @@
 # opensw23-HellOSW
--Team Introduction
+## Team Introduction
 >이태혁 202211350 - team_Leader
 >
 >성승재 202011309 - Coder
@@ -8,21 +8,21 @@
 >
 >김동호 202211267 - Presentation
 
--Topic Introduction
+## Topic Introduction
 >empty
 
--Result
+## Result
 
->empty
+> 
 
--Analysis/Visualization
-
->empty
-
--Installation
+## Analysis/Visualization
 
 >empty
 
--Presentation
+## Installation
+
+>empty
+
+## Presentation
 
 >empty
