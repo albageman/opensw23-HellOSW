@@ -12,7 +12,9 @@
 
 ## -Topic Introduction
 
-> empty
+>Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도로 변환시켜 Output으로 내보내는 문제인 **Single Image Super-Resolution**(이하 SISR)이다. SISR의 다양한 알고리즘 중 EDSR, WDSR, SRGAN 이 포함되어있다.
+>
+>**EDSR**은 깊은 신경망 구조를 사용하여 단일 이미지 초해상도 복원에 초점을 맞추고, **WDSR**은 넓은 활성화 함수를 사용하여 다중 이미지 초해상도 복원에 특화되어 있다.**SRGAN**은 GAN의 경쟁적인 학습을 통해 고해상도 이미지의 진짜같은 결과물을 생성하는데 초점을 맞추고 있습니다.
 
 ## -Result
 
@@ -33,7 +35,8 @@
 
 ### 1. 레파지토리를 clone 한다.
 
-### 2. clone 한 위치에서 anaconda prompt를 실행한다.
+### 2. anaconda prompt를 실행한다.
+
 
 ### 3.
 
