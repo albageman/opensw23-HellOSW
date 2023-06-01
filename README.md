@@ -58,7 +58,6 @@ conda activate sisr
 ```python
 from model import resolve_single
 from model.edsr import edsr
-
 from utils import load_image, plot_sample
 
 model = edsr(scale=4, num_res_blocks=16)
@@ -76,6 +75,8 @@ plot_sample(lr, sr)
 
 ```python
 from model.wdsr import wdsr_b
+from model import resolve_single
+from utils import load_image, plot_sample
 
 model = wdsr_b(scale=4, num_res_blocks=32)
 model.load_weights('weights/wdsr-b-32-x4/weights.h5')
@@ -98,6 +99,8 @@ model directly with `model(...)` though. To be further investigated ...
 
 ```python
 from model.srgan import generator
+from utils import load_image, plot_sample
+from model import resolve_single
 
 model = generator()
 model.load_weights('weights/srgan/gan_generator.h5')
