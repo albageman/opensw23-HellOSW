@@ -12,7 +12,9 @@
 
 ## -Topic Introduction
 
-> empty
+>Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도로 변환시켜 Output으로 내보내는 문제인 **Single Image Super-Resolution**(이하 SISR)이다. SISR의 다양한 알고리즘 중 EDSR, WDSR, SRGAN 이 포함되어있다.
+>
+>**EDSR**은 깊은 신경망 구조를 사용하여 단일 이미지 초해상도 복원에 초점을 맞추고, **WDSR**은 넓은 활성화 함수를 사용하여 다중 이미지 초해상도 복원에 특화되어 있다.**SRGAN**은 GAN의 경쟁적인 학습을 통해 고해상도 이미지의 진짜같은 결과물을 생성하는데 초점을 맞추고 있습니다.
 
 ## -Result
 
@@ -33,9 +35,13 @@
 
 ### 1. 레파지토리를 clone 한다.
 
-### 2. clone 한 위치에서 anaconda prompt를 실행한다.
+### 2. anaconda prompt를 실행한다.
+<img width="586" alt="image" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/c76dfcbb-d228-4c1f-997b-cec363fdc5f8">
+git clone 된 폴더로 이동한다.
+<img width="864" alt="image" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/97a1cde7-4f69-4ee9-a318-dcd639c8b318">
 
-### 3.
+
+### 3. 환경 설정
 
 ```
 conda env create -f environment.yml
@@ -52,7 +58,6 @@ conda activate sisr
 ```python
 from model import resolve_single
 from model.edsr import edsr
-
 from utils import load_image, plot_sample
 
 model = edsr(scale=4, num_res_blocks=16)
@@ -70,6 +75,8 @@ plot_sample(lr, sr)
 
 ```python
 from model.wdsr import wdsr_b
+from model import resolve_single
+from utils import load_image, plot_sample
 
 model = wdsr_b(scale=4, num_res_blocks=32)
 model.load_weights('weights/wdsr-b-32-x4/weights.h5')
@@ -92,6 +99,8 @@ model directly with `model(...)` though. To be further investigated ...
 
 ```python
 from model.srgan import generator
+from utils import load_image, plot_sample
+from model import resolve_single
 
 model = generator()
 model.load_weights('weights/srgan/gan_generator.h5')
