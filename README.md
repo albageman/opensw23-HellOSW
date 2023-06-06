@@ -22,6 +22,8 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 
 기본적으로 사진의 픽셀을 더 잘게 쪼개서 각 픽셀의 RGB 값을 조정하여 사진의 해상도를 높인다. 그리고 이 RGB 값을 조정하는 알고리즘에 따라 복원한 사진의 퀄리티가 달라진다.
 
+<img width="860" alt="result1" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/7da01814-b3d1-45f1-b864-86fce1e04bf5">
+
 ## Result
 
 ### smaple 코드 실행 ( 3가지 )
