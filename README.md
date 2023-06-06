@@ -42,6 +42,10 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 
 <img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/5282c2d6-1854-401a-b8fe-4bc4c6e8323a">
 
+### 글씨 super resolution( by srgan )
+
+<img width="749" alt="text" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/17f99fb5-21a6-4433-8f42-314783ae639b">
+
 ## Analysis/Visualization
 
 여려가지의 샘플을 돌려 본 결과 모델별로 큰 차이는 느낄 수 없었다. 하지만 자세히 확대하여 보게 된다면 픽셀의 수가 확실히 늘어난것을 확인 할 수 있었다.(Presentation에서 자세히)
@@ -166,7 +170,9 @@ miniconda Link: [miniconda][minicondalink]
 window용 installer을 다운받는다(다운 설정 변경X)
 anaconda prompt가 설치되었다면 완료
 
-> 복원된 해상도의 사진을 저장하고 싶다면 아래의 코드를 추가해서 실행하면 된다.
+✨ extra implement
+
+복원된 해상도의 사진을 저장하고 싶다면 아래의 코드를 추가해서 실행하면 된다.
 
 ```python
 from PIL import Image
@@ -178,4 +184,4 @@ img.save('./save1.jpg')
 
 ## Presentation
 
-> empty
+https://youtu.be/Ck-fohDc8S0
