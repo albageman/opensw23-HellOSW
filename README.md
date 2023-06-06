@@ -1,27 +1,27 @@
 # opensw23-HellOSW
 
 ## Team Introduction
+✨이태혁 202211350 - team_Leader
 
-> 이태혁 202211350 - team_Leader
->
-> 성승재 202011309 - Coder
->
-> 김도현 202011257 - Github Expert
->
-> 김동호 202211267 - Presentation
+✨성승재 202011309 - Coder
 
-## -Topic Introduction
+✨김도현 202011257 - Github Expert
+ 
+✨김동호 202211267 - Presentation
 
-> Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도로 변환시켜 Output으로 내보내는 문제인 **Single Image Super-Resolution**(이하 SISR)를 다루는 저장소이다. SISR의 다양한 알고리즘 중 EDSR, WDSR, SRGAN 이 포함되어있다.
->
-> **EDSR** : 깊은 신경망 구조를 사용하여 단일 이미지 초해상도 복원에 특화
->
-> **WDSR** : 넓은 활성화 함수를 사용하여 다중 이미지 초해상도 복원에 특화
->
-> **SRGAN** : GAN의 경쟁적인 학습을 통해 고해상도 이미지의 진짜같은 결과물을 생성
+## Topic Introduction
+
+Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도로 변환시켜 Output으로 내보내는 문제인 **Single Image Super-Resolution**(이하 SISR)를 다루는 저장소이다. SISR의 다양한 알고리즘 중 EDSR, WDSR, SRGAN 이 포함되어있다.
+
+**EDSR** : 깊은 신경망 구조를 사용하여 단일 이미지 초해상도 복원에 특화
+
+**WDSR** : 넓은 활성화 함수를 사용하여 다중 이미지 초해상도 복원에 특화
+
+**SRGAN** : GAN의 경쟁적인 학습을 통해 고해상도 이미지의 진짜같은 결과물을 생성
 
 ## -Result
 
+### smaple 코드 실행 ( 3가지 )
 <img width="860" alt="result1" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/d6914901-d6f9-4ab1-a5bf-55f3c1731595">
 <img width="800" alt="result2" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/75e680f4-7ca2-4bca-8cd4-872c772b4a6b">
 <img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/702c1c79-a662-4325-9fab-ea86b4d1f90c">
@@ -38,11 +38,11 @@
 
 <img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/5282c2d6-1854-401a-b8fe-4bc4c6e8323a">
 
-## -Analysis/Visualization
+## Analysis/Visualization
 
 > empty
 
-## -Installation
+## Installation
 
 > conda(anaconad Prompt)가 설치 되어있어야함
 >
@@ -150,6 +150,6 @@ miniconda Link: [miniconda][minicondalink]
 window용 installer을 다운받는다(다운 설정 변경X)
 anaconda prompt가 설치되었다면 완료
 
-## -Presentation
+## Presentation
 
 > empty
