@@ -83,6 +83,8 @@ conda activate sisr
 from model import resolve_single
 from model.edsr import edsr
 from utils import load_image, plot_sample
+#from PIL import Image 이미지를 저장하고 싶다면 주석을 제거하여 실행하면 됨
+#import numpy as np
 
 model = edsr(scale=4, num_res_blocks=16)
 model.load_weights('weights/edsr-16-x4/weights.h5')
@@ -91,6 +93,9 @@ lr = load_image('demo/0851x4-crop.png')#이 부분을 바꾸어 원하는 이미
 sr = resolve_single(model, lr)
 
 plot_sample(lr, sr)
+#np_arr=np.array(sr,dtype=np.uint8) 이미지를 저장하고 싶다면 주석을 제거하여 실행하면 됨
+#img=Image.fromarray(np_arr)
+#img.save('./save1.jpg')
 ```
 
 ![result-edsr](docs/images/result-edsr.png)
@@ -101,6 +106,8 @@ plot_sample(lr, sr)
 from model.wdsr import wdsr_b
 from model import resolve_single
 from utils import load_image, plot_sample
+#from PIL import Image 이미지를 저장하고 싶다면 주석을 제거하여 실행하면 됨
+#import numpy as np
 
 model = wdsr_b(scale=4, num_res_blocks=32)
 model.load_weights('weights/wdsr-b-32-x4/weights.h5')
@@ -109,6 +116,9 @@ lr = load_image('demo/0829x4-crop.png')#이 부분을 바꾸어 원하는 이미
 sr = resolve_single(model, lr)
 
 plot_sample(lr, sr)
+#np_arr=np.array(sr,dtype=np.uint8) 이미지를 저장하고 싶다면 주석을 제거하여 실행하면 됨
+#img=Image.fromarray(np_arr)
+#img.save('./save1.jpg')
 ```
 
 ![result-wdsr](docs/images/result-wdsr.png)
@@ -125,14 +135,19 @@ model directly with `model(...)` though. To be further investigated ...
 from model.srgan import generator
 from utils import load_image, plot_sample
 from model import resolve_single
+#from PIL import Image 이미지를 저장하고 싶다면 주석을 제거하여 실행하면 됨
+#import numpy as np
 
 model = generator()
 model.load_weights('weights/srgan/gan_generator.h5')
 
-lr = load_image('demo/0869x4-crop.png')#이 부분을 바꾸어 원하는 이미지 입력
+lr = load_image('demo/0869x4-crop.png')# 이부분을 바꾸어 원하는 이미지로 입력
 sr = resolve_single(model, lr)
 
 plot_sample(lr, sr)
+#np_arr=np.array(sr,dtype=np.uint8) 이미지를 저장하고 싶다면 주석을 제거하여 실행하면 됨
+#img=Image.fromarray(np_arr)
+#img.save('./save1.jpg')
 ```
 
 ![result-srgan](docs/images/result-srgan.png)
