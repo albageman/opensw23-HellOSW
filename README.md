@@ -116,7 +116,7 @@ plot_sample(lr, sr)
 ```python
 from model.wdsr import wdsr_b
 from model import resolve_single
-from utils import load_image, plot_sample+
+from utils import load_image, plot_sample
 
 model = wdsr_b(scale=4, num_res_blocks=32)
 model.load_weights('weights/wdsr-b-32-x4/weights.h5')
