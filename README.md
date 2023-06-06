@@ -150,6 +150,16 @@ miniconda Link: [miniconda][minicondalink]
 window용 installer을 다운받는다(다운 설정 변경X)
 anaconda prompt가 설치되었다면 완료
 
+> 복원된 해상도의 사진을 저장하고 싶다면 아래의 코드를 추가해서 실행하면 된다.
+```python
+from PIL import Image
+import numpy as np
+np_arr=np.array(sr,dtype=np.uint8)
+img=Image.fromarray(np_arr)
+img.save('./save1.jpg')
+```
+
+
 ## Presentation
 
 > empty
