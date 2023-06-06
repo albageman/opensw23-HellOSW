@@ -1,12 +1,13 @@
 # opensw23-HellOSW
 
 ## Team Introduction
+
 ✨이태혁 202211350 - team_Leader
 
 ✨성승재 202011309 - Coder
 
 ✨김도현 202011257 - Github Expert
- 
+
 ✨김동호 202211267 - Presentation
 
 ## Topic Introduction
@@ -19,9 +20,12 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 
 **SRGAN** : GAN의 경쟁적인 학습을 통해 고해상도 이미지의 진짜같은 결과물을 생성
 
+기본적으로 사진의 픽셀을 더 잘게 쪼개서 각 픽셀의 RGB 값을 조정하여 사진의 해상도를 높인다. 그리고 이 RGB 값을 조정하는 알고리즘에 따라 복원한 사진의 퀄리티가 달라진다.
+
 ## -Result
 
 ### smaple 코드 실행 ( 3가지 )
+
 <img width="860" alt="result1" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/d6914901-d6f9-4ab1-a5bf-55f3c1731595">
 <img width="800" alt="result2" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/75e680f4-7ca2-4bca-8cd4-872c772b4a6b">
 <img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/702c1c79-a662-4325-9fab-ea86b4d1f90c">
@@ -40,7 +44,18 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 
 ## Analysis/Visualization
 
-> empty
+여려가지의 샘플을 돌려 본 결과 모델별로 큰 차이는 느낄 수 없었다. 하지만 자세히 확대하여 보게 된다면 픽셀의 수가 확실히 늘어난것을 확인 할 수 있었다.(Presentation에서 자세히)
+
+샘플들 중 글씨가 존재하는 사진은 해상도를 높여도 흐린 글씨가 다시 읽을 수 있게 되지는 않았다. 그림에서의 super resoulution은 디테일을 높여 전체적인 해상도가 올라간다는 느낌을 주지만 만약 글자 이미지라면 해상도를 높여도 정확한 글자의 형태를 잡지 못하기 때문에 읽을 수 없다고 느껴진다.
+
+가장 큰 문제점은 큰 사이즈, 즉 픽셀이 매우 많은 이미지는 실행을 하기 어렵다는 것이다. 테스트 결과 CPU가 i5-8500인 컴퓨터에서 최대 500X500 사이즈인 이미지의 해상도를 올릴 수 있다는 것으로 나왔다. 더 좋은 환경에서 테스트 해보진 못했지만 더욱 극적인 차이를 만들기 위해서는 매우 좋은 CPU에서 작동을 해야할 것 같다.
+
+✨결론:
+최신 휴대폰으로 찍은 사진은 기본적으로 해상도가 매우 높기 때문에 이 코드를 통해 해상도를 높이려면 원본사진의 해상도를 낮춰 작동시킬 수 있는 사진을 만든 후 작업을 실행해야해서 사실 상 의미가 없다고 할 수 있다.
+
+하지만 이미 원본 사진의 픽셀이 적은 사진은 글씨가 없다는 전제하에 확연히 자연스럽게 해상도가 높아진 모습을 볼 수 있었다.
+
+이 코드는 원본 사진의 픽셀 수 가 매우 적은 사진을 조금 더 해상도를 높이는 작업에 적절한것 같다.
 
 ## Installation
 
@@ -151,6 +166,7 @@ window용 installer을 다운받는다(다운 설정 변경X)
 anaconda prompt가 설치되었다면 완료
 
 > 복원된 해상도의 사진을 저장하고 싶다면 아래의 코드를 추가해서 실행하면 된다.
+
 ```python
 from PIL import Image
 import numpy as np
@@ -158,7 +174,6 @@ np_arr=np.array(sr,dtype=np.uint8)
 img=Image.fromarray(np_arr)
 img.save('./save1.jpg')
 ```
-
 
 ## Presentation
 
