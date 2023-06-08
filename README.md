@@ -33,16 +33,15 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 <img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/702c1c79-a662-4325-9fab-ea86b4d1f90c">
 
 ### wdsr 실행 예시
-
-<img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/b69eaa72-b157-4a0e-890a-79b7296dd7b4">
+<img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/be076210-e736-414a-b15e-e5dd46c8e972">
 
 ### edsr 실행 예시
 
-<img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/92fa0d8b-f9b0-4e05-a591-992af2993cd5">
+<img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/d612ec4c-9e4d-4e9c-86fa-c348a0e85b46">
 
 ### srgan 실행 예시
 
-<img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/5282c2d6-1854-401a-b8fe-4bc4c6e8323a">
+<img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/c29726a2-b169-4863-9bdb-2da4381e6274">
 
 ### 글씨 super resolution( by srgan )
 
