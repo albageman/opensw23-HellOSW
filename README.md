@@ -69,9 +69,14 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 
 <img width="808" alt="noodle" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/56c794f2-e32d-474d-9d54-6089df3b7405">
 
-### 글씨 super resolution( by srgan )
+### 글씨 super resolution
 
-<img width="749" alt="text" src="https://github.com/albageman/opensw23-HellOSW/assets/127179500/17f99fb5-21a6-4433-8f42-314783ae639b">
+좌상부터 오른쪽으로 순서대로 원본, edsr, wdsr, srgan
+
+<img width="400" alt="juice" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/2c5030aa-48e8-4195-90c2-4ca883b229f9">
+<img width="400" alt="juice_edsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/5304be9b-5fc4-4e35-b4df-c18073ae81e7">
+<img width="400" alt="juice_wdsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/71cd5c25-3b30-419e-9479-3a1037001564">
+<img width="400" alt="juice_srgan" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/cf835822-e789-4f71-829f-d116be9fcc10">
 
 ## Analysis/Visualization
 
