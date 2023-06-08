@@ -44,28 +44,28 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 
 좌상부터 오른쪽으로 순서대로 원본, edsr, wdsr, srgan
 
-벚꽃
+> 벚꽃
 
 <img width="400" alt="flower" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/52410d66-65b6-4c51-8d24-5aa2ae7acc98">
 <img width="400" alt="flower_edsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/ce7913db-85c2-4b9c-8df3-bb42eabcc11f">
 <img width="400" alt="flower_wdsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/aed45d3b-2735-4326-8c09-7baec7975753">
 <img width="400" alt="flower_srgan" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/9ba11691-c9db-45c8-bd22-d193f1cf9076">
 
-도시
+> 도시
 
 <img width="400" alt="city" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/82436d97-9c51-4741-9733-42b3b71e462c">
 <img width="400" alt="city_edsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/e60780b4-d4c8-4bce-8375-f7d7b39e63db">
 <img width="400" alt="city_wdsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/5f70ecd7-b762-4bf2-a5a9-cebf708747e0">
 <img width="400" alt="city_srgan" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/af509765-f9a7-4be2-abe3-8ee2eb18cb30">
 
-구름
+> 구름
 
 <img width="400" alt="cloud" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/474d70d3-22cf-4727-9ed8-327a7d5facf6">
 <img width="400" alt="cloud_edsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/c44a6587-de1d-40bc-8bee-f065a47ea3a6">
 <img width="400" alt="cloud_wdsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/e13f5501-e550-4a8d-a5a6-dc71c8865b74">
 <img width="400" alt="cloud_srgan" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/a5eb126e-d387-4b86-afac-172dcc271c2e">
 
-라면
+> 라면
 
 <img width="808" alt="noodle" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/56c794f2-e32d-474d-9d54-6089df3b7405">
 
