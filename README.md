@@ -27,8 +27,7 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 ## Result
 
 ### dataset 구성
-이미지 크기가 400X400를 넘지 않은 사진들.
-직접 찍은 사진들로 구성됨.
+이미지 크기가 400X400를 넘지 않은 사진들과 직접 찍은 사진들로 구성됨.
 
 ### wdsr 실행 예시
 <img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/be076210-e736-414a-b15e-e5dd46c8e972">
