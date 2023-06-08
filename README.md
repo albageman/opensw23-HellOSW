@@ -69,6 +69,12 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 >
 > > 설치 방법은 installation 밑부분에 기재함.
 
+> 테스트 된 실행 환경: i5-1155G7 / intel iris(R) Xe
+> 
+>                     i5-11400H / intel(R) UHD Graphics
+>                     
+>                     Mac OS에서는 테스트 안됨
+
 ### 1. 레파지토리를 clone
 
 ### 2. anaconda prompt를 실행시키기
