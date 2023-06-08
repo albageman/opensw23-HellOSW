@@ -26,12 +26,6 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 
 ## Result
 
-### smaple 코드 실행 ( 3가지 )
-
-<img width="860" alt="result1" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/d6914901-d6f9-4ab1-a5bf-55f3c1731595">
-<img width="800" alt="result2" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/75e680f4-7ca2-4bca-8cd4-872c772b4a6b">
-<img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/702c1c79-a662-4325-9fab-ea86b4d1f90c">
-
 ### wdsr 실행 예시
 <img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/be076210-e736-414a-b15e-e5dd46c8e972">
 
@@ -42,6 +36,15 @@ Input에 하나의 저해상도 이미지를 넣었을 때 이를 고해상도�
 ### srgan 실행 예시
 
 <img width="809" alt="result3" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/c29726a2-b169-4863-9bdb-2da4381e6274">
+
+### edsr, wdsr, srgan 각 결과 비교
+
+좌상부터 순서대로 원본, edsr, wdsr, srgan
+
+<img width="400" alt="flower" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/52410d66-65b6-4c51-8d24-5aa2ae7acc98">
+<img width="400" alt="flower_edsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/ce7913db-85c2-4b9c-8df3-bb42eabcc11f">
+<img width="400" alt="flower_wdsr" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/aed45d3b-2735-4326-8c09-7baec7975753">
+<img width="400" alt="flower_srgan" src="https://github.com/albageman/opensw23-HellOSW/assets/127181219/9ba11691-c9db-45c8-bd22-d193f1cf9076">
 
 ### 글씨 super resolution( by srgan )
 
